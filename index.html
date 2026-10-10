@@ -36,6 +36,7 @@ function renderAdminClients(){adminLayout('clientes',`<h1>Clientes</h1><div clas
 function renderAdminPickups(){adminLayout('retiradas',`<h1>Retiradas</h1><div class="panel" style="padding:20px"><p>📦 <strong>#1051</strong> — 09:00–10:00 — Pronto</p><p>📦 <strong>#1052</strong> — 10:00–12:00 — Separando</p><p>📦 <strong>#1053</strong> — 13:00–15:00 — Pronto</p></div>`)}
 function renderAdminReports(){adminLayout('relatorios',`<h1>Relatórios</h1><div class="metrics"><div class="metric">Vendas hoje<strong>${money(3428.5)}</strong></div><div class="metric">Pedidos<strong>27</strong></div><div class="metric">Ticket médio<strong>${money(127.35)}</strong></div></div>`)}
 function renderAdminConfig(){adminLayout('config',`<h1>Configurações</h1><div class="panel" style="padding:20px"><label>Nome da loja</label><input value="Sua Loja" style="width:100%;padding:12px;margin:8px 0 18px"><label>Mensagem</label><textarea style="width:100%;padding:12px;margin:8px 0" rows="4">Retirada na loja • Pagamento online • Compra segura</textarea><button class="btn" onclick="alert('Configurações salvas neste protótipo.')">Salvar</button></div>`)}
-
+console.log("Teste Atual Motos");
 renderHome();updateBadge();
+console.log("Painel administrativo em teste");
 </script></body></html>
